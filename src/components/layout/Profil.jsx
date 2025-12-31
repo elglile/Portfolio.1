@@ -12,8 +12,8 @@ export default function Profil() {
 
     return (
         <aside 
-            className={`sidebar ${showContacts ? "active" : ""} bg-[var(--eerie-black-2)] border border-[var(--jet)] rounded-[20px] p-[15px] shadow-[var(--shadow-1)] z-[1] mb-[15px] max-h-[112px] overflow-hidden transition-[var(--transition-2)] `}
-            data-sidebar>
+                className={` h-fit sidebar sticky ${showContacts ? "active" : ""} bg-[var(--eerie-black-2)] border border-[var(--jet)] rounded-[20px] p-[15px] shadow-[var(--shadow-1)] z-[1] mb-[15px] max-h-[112px] transition-[var(--transition-2)] `}
+        data-sidebar>
             {/* TOP INFO */}
             <div className="relative flex justify-start items-center gap-5 flex-col sidebar-info ">
                 <figure className="avatar-box">
